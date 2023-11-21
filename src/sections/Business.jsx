@@ -1,8 +1,8 @@
 import React from "react";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import Button from "../components/Button";
 import { features } from "../constants";
-import FeatureCard from "./FeatureCard";
+import FeatureCard from "../components/FeatureCard";
 
 const Business = () => {
   return (
@@ -13,7 +13,9 @@ const Business = () => {
           the money.
         </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With the right credit card, you can improve your financial life by building credit, earning rewards and saving money. But with hundreds of credit cards on the market.
+          With the right credit card, you can improve your financial life by
+          building credit, earning rewards and saving money. But with hundreds
+          of credit cards on the market.
         </p>
 
         <Button styles={`mt-10`} />

@@ -1,7 +1,7 @@
 import React from "react";
 import { discount, robot } from "../assets";
 import styles from "../style";
-import GetStarted from "./GetStarted";
+import GetStarted from "../components/GetStarted";
 
 const Hero = () => {
   return (
@@ -37,7 +37,9 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
+      <div
+        className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
+      >
         <img
           src={robot}
           alt="Billing"

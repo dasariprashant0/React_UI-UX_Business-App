@@ -47,7 +47,7 @@ const Footer = () => {
 
         <div className="flex flex-row md:mt-0 mt-6">
           {socialMedia.map((social, index) => (
-            <img src={social.icon} alt={social.id} key={social.id} className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`} onClick={() => window.open(socail.link)} />
+            <img src={social.icon} alt={social.id} key={social.id} className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.length - 1 ? "mr-6" : "mr-0"}`} onClick={() => window.open(social.link)} />
           ))}
         </div>
       </div>

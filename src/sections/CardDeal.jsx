@@ -1,7 +1,7 @@
-import React from 'react'
-import styles, { layout } from '../style'
-import Button from './Button';
-import { card } from '../assets';
+import React from "react";
+import styles, { layout } from "../style";
+import Button from "../components/Button";
+import { card } from "../assets";
 
 const CardDeal = () => {
   return (
@@ -24,6 +24,6 @@ const CardDeal = () => {
       </div>
     </section>
   );
-}
+};
 
-export default CardDeal
+export default CardDeal;
